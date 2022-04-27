@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     twitter: "https://twitter.com/gzavaletavargas",
     googleTrackingId: "G-ET0TNT9QTZ",
   },
-  ssr: false,
+  target: 'static',
   head: {
     charset: "utf-8",
     viewport: "width=device-width, initial-scale=1",
