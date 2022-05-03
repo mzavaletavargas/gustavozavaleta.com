@@ -5,6 +5,7 @@
     :href="href"
     target="_blank"
     ><svg
+      class="fill-blue-700 dark:fill-blue-300"
       width="24"
       height="24"
       viewBox="0 0 24 24"

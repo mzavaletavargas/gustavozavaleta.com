@@ -5,34 +5,30 @@
     <span class="text-4xl lg:text-5xl tracking-tighter">
       <span class="text-blue-400">gustavo</span>
       <span>.</span>
-      <span class="text-fuchsia-400">hello()</span>
+      <span class="text-fuchsia-400 font-bold">hello()</span>
     </span>
     <span class="text-1xl lg:text-2xl">
       <span class="pr-2 text-blue-500">></span>
-      <span class="text-gray-300">welcome to my website</span>
+      <span class="dark:text-gray-300">welcome to my website</span>
     </span>
-    <div class="flex flex-row space-x-4 pt-5">
+    <div class="flex flex-row mt-5 space-x-4 w-28 h-10 justify-center items-center">
       <Linkedin
-        class=""
         :href="linkedinUrl"
         :headline="title"
         :description="description"
         :origin="appUrl"
-        color="white"
       />
       <Github
         :href="githubUrl"
         :headline="title"
         :description="description"
         :origin="appUrl"
-        color="white"
       />
       <Twitter
         :href="twitterUrl"
         :headline="title"
         :description="description"
         :origin="appUrl"
-        color="white"
       />
     </div>
   </div>

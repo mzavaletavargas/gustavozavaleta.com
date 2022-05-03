@@ -5,9 +5,10 @@
     :href="href"
     target="_blank"
     ><svg
-      :width="width || '20'"
+      class="fill-blue-600 dark:fill-blue-400"
+      :width="width || '24'"
       :height="height || '28'"
-      viewBox="0 0 19 21"
+      viewBox="0 0 19 15"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       :headline="headline"
@@ -26,30 +27,30 @@ export default {
   props: {
     href: {
       type: String,
-      required: true
+      required: true,
     },
     headline: {
       type: String,
-      required: true
+      required: true,
     },
     origin: {
       type: String,
-      required: true
+      required: true,
     },
     description: {
       type: String,
-      required: true
+      required: true,
     },
     color: {
       type: String,
-      required: true
+      required: true,
     },
     width: {
-      type: String
+      type: String,
     },
     height: {
-      type: String
-    }
-  }
-}
+      type: String,
+    },
+  },
+};
 </script>
