@@ -23,4 +23,5 @@ export default defineNuxtConfig({
     ]
   },
   modules: ["@nuxtjs/tailwindcss"],
+  plugins: ['@/plugins/vue-gtag.client'],
 });

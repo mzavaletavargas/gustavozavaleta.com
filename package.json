@@ -11,6 +11,7 @@
     "nuxt": "3.0.0-rc.2"
   },
   "dependencies": {
-    "postcss-custom-properties": "^12.1.7"
+    "postcss-custom-properties": "^12.1.7",
+    "vue-gtag-next": "^1.14.0"
   }
 }
