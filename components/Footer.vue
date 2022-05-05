@@ -1,11 +1,11 @@
 <template>
   <div>
-    <span class="flex justify-center">
+    <!-- <span class="flex justify-center">
       I blog about
       <a class="text-fuchsia-500 dark:text-fuchsia-300" href="https://efectobitcoin.com"
         >&nbsp;crypto</a
       >
-    </span>
+    </span> -->
   </div>
 </template>
 
