@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full dark:text-white flex justify-center items-center flex-col font-mono"
+    class="h-screen w-full dark:text-white flex justify-center items-center flex-col font-mono"
   >
     <span class="text-4xl lg:text-5xl tracking-tighter">
       <span class="text-blue-400">gustavo</span>

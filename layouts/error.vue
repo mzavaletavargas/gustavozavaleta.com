@@ -19,7 +19,7 @@
           class="space cursor-pointer z-50 flex-col justify-center items-center flex pt-4 px-8 rounded-md text-purple-800 transform duration-150 ease-in hover:text-white hover:scale-105"
         >
           <!-- DON T FORGET TO CHANGE THE IMG -->
-          <img class="h-96" src="/astronauta.svg" alt="astronauta" />
+          <img class="h-96"  alt="astronauta" />
           <span class="text-3xl undeline dark:text-white">
             <NuxtLink to="/">Regresar</NuxtLink></span
           >

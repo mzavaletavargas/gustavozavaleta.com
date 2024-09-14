@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from "nuxt";
+import { defineNuxtConfig } from "nuxt/config";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -11,7 +11,9 @@ export default defineNuxtConfig({
     twitter: "https://twitter.com/gzavaletavargas",
     googleTrackingId: "G-ET0TNT9QTZ",
   },
+
   ssr: false,
+
   head: {
     charset: "utf-8",
     viewport: "width=device-width, initial-scale=1",
@@ -22,6 +24,8 @@ export default defineNuxtConfig({
       {src: '~/test.js'}
     ]
   },
+
   modules: ["@nuxtjs/tailwindcss"],
   plugins: ['@/plugins/vue-gtag.client'],
+  compatibilityDate: "2024-09-09",
 });
