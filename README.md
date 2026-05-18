@@ -1,42 +1,34 @@
-# Nuxt 3 Minimal Starter
+# gustavozavaleta.com
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Personal website of Gustavo Zavaleta, built with [Nuxt 4](https://nuxt.com).
+
+## Stack
+
+- **Nuxt 4** — SSR + static prerendering (full HTML for crawlers)
+- **@nuxtjs/tailwindcss** — styling
+- **@nuxtjs/seo** — sitemap, robots.txt, OG images, schema.org, canonical URLs
+- **nuxt-gtag** — Google Analytics 4
+
+Application code lives in `app/` (Nuxt 4 directory structure).
 
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+## Development
 
 ```bash
-npm run dev
+npm run dev   # http://localhost:3000
 ```
 
 ## Production
 
-Build the application for production:
-
 ```bash
-npm run build
+npm run build     # SSR build
+npm run generate  # fully prerendered static build
+npm run preview   # preview the production build
 ```
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Deployed on Netlify — the Nitro Netlify preset is auto-detected, no extra config needed.
