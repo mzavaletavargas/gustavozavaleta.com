@@ -202,3 +202,31 @@ export const education: EducationItem[] = [
     location: "Lima, Peru",
   },
 ];
+
+export interface Faq {
+  q: string;
+  a: string;
+}
+
+export const faqs: Faq[] = [
+  {
+    q: "Is Gustavo Zavaleta open to new opportunities?",
+    a: "Yes — Gustavo is open to senior, remote software engineering roles.",
+  },
+  {
+    q: "Where is Gustavo Zavaleta based?",
+    a: "Lima, Peru. He works remotely and has done so for most of his career.",
+  },
+  {
+    q: "What does Gustavo specialize in?",
+    a: "Backend systems with Node.js, TypeScript and AWS — event-driven architecture, serverless and microservices.",
+  },
+  {
+    q: "How much experience does Gustavo have?",
+    a: "Around 10 years, across product companies and software consultancies.",
+  },
+  {
+    q: "How can I contact Gustavo?",
+    a: "Through the contact section of this site — by email, LinkedIn or GitHub.",
+  },
+];

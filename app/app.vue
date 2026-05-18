@@ -48,6 +48,13 @@ useSchemaOrg([
       "@type": "CollegeOrUniversity",
       name: "Universidad Nacional Federico Villarreal",
     },
+    hasOccupation: {
+      "@type": "Occupation",
+      name: "Senior Software Engineer",
+      occupationLocation: { "@type": "City", name: "Lima, Peru" },
+      skills:
+        "Node.js, TypeScript, AWS, NestJS, event-driven architecture, serverless, microservices",
+    },
   }),
   defineWebPage(),
 ]);
